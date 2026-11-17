@@ -1,0 +1,34 @@
+# Flutter（只针对 app/ 目录）
+app/.dart_tool/
+app/.packages
+app/.pub-cache/
+app/.pub/
+app/build/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/android/.gradle/
+app/android/local.properties
+app/ios/Pods/
+app/ios/.symlinks/
+app/ios/Flutter/ephemeral/
+
+# 平台壳由 flutter create 生成，不纳入版本管理
+app/android/
+app/ios/
+app/macos/
+app/linux/
+app/windows/
+app/web/
+
+# 编辑器
+.idea/
+.vscode/
+*.iml
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.log
+*.tmp
